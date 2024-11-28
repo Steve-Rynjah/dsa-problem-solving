@@ -24,11 +24,7 @@ function main(){
 
     const input = ["steve", ":", "austin"]
     const en = encode(input)
-
     const de = decode(en)
-
-    console.log("ENCODE : ", en)
-    console.log("DECODE : ", de)
     console.log(JSON.stringify(input) === JSON.stringify(de) ? true : false)
 }
 
