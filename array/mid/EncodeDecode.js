@@ -22,7 +22,7 @@ function main(){
         return result;
     }
 
-    const input = ["steve", ":", "austin"]
+    const input = ["steve", ":", "austin", ":", "rynjah"]
     const en = encode(input)
     const de = decode(en)
     console.log(JSON.stringify(input) === JSON.stringify(de) ? true : false)
