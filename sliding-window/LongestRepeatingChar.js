@@ -18,4 +18,4 @@ function main(str, k){
     return result;
 }
 
-console.log(main("AAABABB", k = 1))
+console.log(main("ABAB", k = 2))
