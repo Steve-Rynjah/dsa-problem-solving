@@ -29,21 +29,6 @@ function printList(arrayList){
     return output;
 }
 
-function reverseList(arrayList){
-    let prev = null;
-    let current = arrayList;
-
-    while(current){
-        let temp = current.next;
-        current.next = prev;
-        prev = current;
-        current = temp
-    }
-    return prev;
-}
-
 const input = [1,2,3,4,5]
 const createNodeList = createList(input)
 console.log("List : ", printList(createNodeList))
-const reverseNodeList = reverseList(createNodeList)
-console.log("Reverse :", printList(reverseNodeList))
