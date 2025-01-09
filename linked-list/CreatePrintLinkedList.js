@@ -31,4 +31,4 @@ function printList(arrayList){
 
 const input = [1,2,3,4,5]
 const createNodeList = createList(input)
-console.log("List :: ", printList(createNodeList))
+console.log("List : ", printList(createNodeList))
